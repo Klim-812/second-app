@@ -7,10 +7,6 @@ fun main (){
 
     val totalMaxComission = amount * maxComission
 
-
-   /* val result = if(totalMaxComission<minComission) amount+minComission else amount+totalMaxComission
-    println(result) */
-
     val comission = if(totalMaxComission<minComission) minComission else totalMaxComission
     println(comission)
 }
